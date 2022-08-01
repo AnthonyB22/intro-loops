@@ -1,0 +1,8 @@
+integer numKids 
+integer userNum
+
+numKids = 2
+userNum = Get next input
+if userNum == 1
+   Put numKids to output
+numKids = numKids * 2

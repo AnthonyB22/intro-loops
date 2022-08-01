@@ -1,0 +1,14 @@
+integer Sum
+integer Num
+integer Val
+integer Avg
+
+Sum = 0
+Num = 0
+Val = Get next input
+while Val > -1
+   Sum = Sum + Val
+Num = Num + 1
+Val = Get next input
+Avg = Sum/Num
+Put Avg to output

@@ -1,0 +1,9 @@
+integer Sum
+integer Val
+
+Sum = 0
+Val = Get next input
+while Val > -1
+   Sum = Sum + Val
+Val = Get next input
+Put Sum to output

@@ -1,0 +1,15 @@
+integer celsiusValue
+integer fahrenheltValue
+integer userChoice
+
+userChoice = 1
+celsiusValue = 0.0
+if userChoice == 1
+   Put "fahrenheltValue(celsiusValue * 9.0 / 5.0) + 32.0" to output
+Put celsiusValue to output
+Put "C is" to output
+Put fahrenheltValue to output
+Put "F\n" to output
+celsiusValue = celsiusValue + 5
+userChoice = Get next input
+Put "Goodbye." to output
